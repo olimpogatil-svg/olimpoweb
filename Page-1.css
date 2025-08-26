@@ -1,0 +1,144 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 800px;
+  min-height: 601px;
+  margin: 75px auto 60px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-custom-html-1 {
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+}* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0b0f1a;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+form {
+  width: 100%;
+  max-width: 520px;
+  background-color: #111827;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  position: relative;
+}
+.subtitulo {
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 0.95rem;
+}
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1f2937;
+  color: white;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+input:focus,
+select:focus {
+  background-color: #2d3748;
+  outline: none;
+}
+input::placeholder {
+  color: #94a3b8;
+}
+.radio-group {
+  margin-bottom: 25px;
+}
+.radio-group label {
+  font-weight: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  margin-right: 20px;
+}
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #1e40af;
+}
+@media (max-width: 600px) {
+  form {
+    padding: 2rem 1.5rem;
+  }
+  .radio-group label {
+    display: block;
+    margin-right: 0;
+  }
+} 
